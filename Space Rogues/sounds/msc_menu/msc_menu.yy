@@ -14,8 +14,8 @@
   "soundFile": "msc_menu.wav",
   "duration": 64.0,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Menu",
+    "path": "folders/Sounds/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "msc_menu",

@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "red",
+    "path": "folders/Sprites/Enemies/red.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy_brute_strip5",

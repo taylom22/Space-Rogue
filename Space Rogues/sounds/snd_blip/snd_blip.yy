@@ -14,8 +14,8 @@
   "soundFile": "snd_blip.wav",
   "duration": 0.149796,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_blip",

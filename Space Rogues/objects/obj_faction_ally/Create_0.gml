@@ -1,2 +1,4 @@
 faction = factions.ally;
-image_blend = c_aqua;
+color = c_aqua;
+image_blend = color;
+initialized = false;

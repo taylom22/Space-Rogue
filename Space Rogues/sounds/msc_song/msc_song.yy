@@ -14,8 +14,8 @@
   "soundFile": "msc_song.wav",
   "duration": 134.095245,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Levels",
+    "path": "folders/Sounds/Levels.yy",
   },
   "resourceVersion": "1.0",
   "name": "msc_song",

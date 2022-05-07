@@ -13,6 +13,6 @@ function create_bullet(_dir, _speed, _faction, _creator){
 		creator = _creator;
 		
 		if(faction == factions.ally) image_blend = c_aqua;
-		else if (faction == factions.enemy) image_blend = c_red;
+		else if (faction == factions.red) image_blend = c_red;
 	}
 }

@@ -1,7 +1,10 @@
 /// @description Take Damage
+if(invincible) exit;
+
 if(global.collision = true){
 	global.collision = false;
 	audio_play_sound(snd_zap, 1, false);
+	create_debris(id, faction, 5, color);
 	
 	health -= 1;
 
@@ -14,5 +17,7 @@ if(global.collision = true){
 		
 		instance_destroy();
 	}
+	
+	with(other) event_perform(ev_other, ev_user1);
 }
 

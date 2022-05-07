@@ -14,8 +14,8 @@
   "soundFile": "snd_lose.wav",
   "duration": 1.335147,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Menu",
+    "path": "folders/Sounds/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_lose",

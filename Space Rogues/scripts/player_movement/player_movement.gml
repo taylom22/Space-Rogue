@@ -30,5 +30,6 @@ function player_movement(){
 		speed -= speed * .025;
 	}
 	
+	//if outside room
 	move_wrap(true, true, sprite_width/2);
 }

@@ -3,7 +3,6 @@
 
 audio_play_sound(snd_die, 1, false);
 		
-repeat(20){
-			instance_create_layer(x,y, "Instances", obj_debris);
-		}
+create_debris(id, faction, 20, color);
+
 health = global.playerDefaultHealth;
