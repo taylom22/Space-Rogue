@@ -1,0 +1,2 @@
+creator = undefined;
+faction = undefined;

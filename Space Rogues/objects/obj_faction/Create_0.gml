@@ -1,0 +1,3 @@
+faction = factions.neutral;
+
+
