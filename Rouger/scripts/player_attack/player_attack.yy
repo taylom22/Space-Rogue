@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerMovement",
+  "name": "player_attack",
   "tags": [],
   "resourceType": "GMScript",
 }

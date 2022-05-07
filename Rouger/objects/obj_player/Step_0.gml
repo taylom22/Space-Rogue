@@ -1,5 +1,5 @@
-PlayerMovement()
-PlayerAttack()
+player_movement()
+player_attack()
 
 if(global.collision = false){
 	global.collisionCounter += 1;

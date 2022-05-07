@@ -3,7 +3,7 @@ switch(room){
 		draw_text(20, 20, "SCORE: "+string(score));
 		draw_text(20, 40, "HEALTH: "+string(health));
 		draw_text(20, 60, "LIVES: "+string(lives));
-		if(instance_exists(obj_player)){draw_text(20, 80, "SPEED: "+string(obj_player.speed));}
+		if(instance_exists(obj_player)){draw_text(20, 80, "SPEED: "+string(obj_player.speed*1000));}
 		break;
 	
 	case rm_start:

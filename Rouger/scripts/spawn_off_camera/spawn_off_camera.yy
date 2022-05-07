@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerProperties",
+  "name": "spawn_off_camera",
   "tags": [],
   "resourceType": "GMScript",
 }

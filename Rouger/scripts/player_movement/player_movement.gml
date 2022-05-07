@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerMovement(){
+function player_movement(){
 	var haxis = gamepad_axis_value(0, gp_axislh);
 	var rightTrigger = gamepad_button_value(0, gp_shoulderrb)
 	var leftTrigger = gamepad_button_value(0, gp_shoulderlb)
