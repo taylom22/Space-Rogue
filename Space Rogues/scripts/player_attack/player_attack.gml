@@ -4,7 +4,7 @@ function player_attack(){
 	if (global.bulletDelay > 0){
 		global.bulletDelay --;
 	} else {
-		create_bullet(obj_player.image_angle, global.playerBulletSpeed, faction, id);
+		create_bullet(obj_player.image_angle, global.playerBulletSpeed, faction, id, guns);
 		global.bulletDelay = global.bulletDelayDefault;
 	}
 }

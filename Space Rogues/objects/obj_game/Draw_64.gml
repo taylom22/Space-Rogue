@@ -14,7 +14,7 @@ switch(room){
 @"Score 1,000 points to win!
 
 W|RT: Thrusters
-S|LT: Back Thrusters
+S|LT: Stablization Thrusters
 A/D|Joystick: Rotational Thrusters
 
 >> PRESS ENTER TO START <<
