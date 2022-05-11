@@ -11,22 +11,25 @@ draw_set_halign(fa_center);
 		if(global.control_method == "asteroid"){ draw_text(vw/2, vh*.5, 
 @"Default Control Scheme
 W|RT: Thrusters
-S|LT: Stablization Thrusters
+S|LT: Stabilization Thrusters
 A/D|Joystick: Rotational Thrusters
+P|Start: Pause
 ");}
 
 		if(global.control_method == "alternative"){draw_text(vw/2, vh*.5, 
 @"Alternative Control Scheme
 Joystick: Move
-LT: Stablization Thrusters
+LT: Stabilization Thrusters
 RT: Free Rotation
+P|Start: Pause
 ");}
 
 	if(global.control_method == "twinStick"){draw_text(vw/2, vh*.5, 
 @"Twinstick Control Scheme
 Left Stick: Move
 Right Stick: Aim
-LT: Stablization Thrusters
+LT: Stabilization Thrusters
+P|Start: Pause
 ");}
 		draw_text(vw/2, vh*.7, ">> PRESS ENTER TO START <<");
 		
