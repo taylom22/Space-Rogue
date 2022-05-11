@@ -1,16 +1,3 @@
-if(keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_start)){
-	switch(room){
-		case rm_start:
-			room_goto(rm_game)
-			break;
-			
-		case rm_win:
-		case rm_gameover:
-			game_restart();
-			break;
-	}
-}
-
 if(keyboard_check_released(vk_tab) || gamepad_button_check_released(0, gp_select)){
 	switch(global.control_method){
 		case "asteroid":
@@ -25,16 +12,36 @@ if(keyboard_check_released(vk_tab) || gamepad_button_check_released(0, gp_select
 	show_debug_message("Control Method: " + global.control_method);
 }
 
-if(room == rm_game){
-	/*if(score >= 1000){
-		room_goto(rm_win);
-		audio_play_sound(snd_win, 1, false);
-	}*/
-	time_seconds += (delta_time*0.00000001)*room_speed;
-	if(lives <=0){
-		room_goto(rm_gameover);
-		audio_play_sound(snd_lose, 1, false);
-	}
-}
+//Window Scaling
+global.resolution_w = window_get_width();
+global.resolution_h = window_get_height();
+global.cameraWidth = global.resolution_w;
+global.cameraHeight = global.resolution_h;
 
+view_wport[0] = global.resolution_w;
+view_hport[0] = global.resolution_h;
+window_set_size(global.resolution_w, global.resolution_h);
+surface_resize(application_surface, global.resolution_w, global.resolution_h);
+display_set_gui_size(global.resolution_w, global.resolution_h);
+camera_set_view_size(view_camera[0], global.resolution_w, global.resolution_h);
+camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
+
+//Pause
+if room == rm_game
+{
+	if(keyboard_check_pressed(ord("P")) || gamepad_button_check_pressed(0, gp_start)){
+	    paused = !paused;
+	    if paused == false
+	        {
+	        instance_activate_all();
+	        surface_free(paused_surf);
+	                paused_surf = -1;
+	        }
+	    }
+	if paused == true
+	    {
+	    alarm[0]++;
+	    alarm[1]++;
+	    }
+}
 

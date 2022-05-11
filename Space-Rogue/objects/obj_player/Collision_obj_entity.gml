@@ -4,11 +4,11 @@ else if(invincible){
 	with(other){event_perform(ev_other, ev_user1);}exit;}
 
 //Horizontal bounce
-if(place_meeting(x + hspeed, y, obj_faction))
+if(place_meeting(x + hspeed, y, obj_entity))
 	direction = -direction + 180;
 
 //Vertical bounce
-if(place_meeting(x, y + vspeed, obj_faction))
+if(place_meeting(x, y + vspeed, obj_entity))
 	direction = -direction;
 	
 //Take Damage

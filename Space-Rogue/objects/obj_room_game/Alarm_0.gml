@@ -1,8 +1,6 @@
-if(room != rm_game){
-	exit;
-}
+/// @description Enemy Spawner
 
-time_factor = ((time_seconds/30) + 1)*.35;
+time_factor = ((global.time_seconds/30) + 1)*.35;
 
 spawn_off_camera(obj_asteroid, 5 * time_factor);
 spawn_off_camera(obj_raider, 3 * time_factor);
