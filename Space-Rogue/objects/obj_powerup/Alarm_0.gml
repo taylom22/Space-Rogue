@@ -1,2 +1,2 @@
 /// @description Destroy Self
-instance_destroy();
+dying = true;
