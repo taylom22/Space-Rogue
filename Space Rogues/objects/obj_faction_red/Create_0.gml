@@ -6,3 +6,4 @@ image_angle = direction;
 faction = factions.red;
 color = c_red;
 image_blend = color;
+immuneToLaser = false;

@@ -1,1 +1,1 @@
-
+immuneToLaser = false;

@@ -2,6 +2,7 @@
 
 score += 10;
 audio_play_sound(snd_hurt, 1, false);
+create_debris(id, faction, 10, c_white);
 instance_destroy();
 
 	
@@ -10,7 +11,7 @@ if(sprite_index == spr_asteroid_large){
 		var new_asteroid = instance_create_layer(x,y, "Instances", obj_asteroid)
 		new_asteroid.sprite_index = spr_asteroid_medium;}
 			
-	create_debris(id, faction, 50, c_white);
+	create_debris(id, faction, 100, c_white);
 }
 	
 else if (sprite_index == spr_asteroid_medium){
@@ -18,9 +19,9 @@ else if (sprite_index == spr_asteroid_medium){
 		var new_asteroid = instance_create_layer(x,y, "Instances", obj_asteroid)
 		new_asteroid.sprite_index = spr_asteroid_small;}
 			
-	create_debris(id, faction, 20, c_white);
+	create_debris(id, faction, 50, c_white);
 }
 	
 else if(sprite_index == spr_asteroid_small){
-	create_debris(id, faction, 10, c_white);
+	create_debris(id, faction, 20, c_white);
 }

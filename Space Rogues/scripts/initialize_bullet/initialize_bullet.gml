@@ -3,7 +3,7 @@
 function initialize_bullet(_dir, _speed, _faction, _creator, inst){
 	with(inst){
 		direction = _dir;
-		speed = _speed;
+		if(object_index == obj_bullet) speed = _speed;
 		faction = _faction;
 		creator = _creator;
 		

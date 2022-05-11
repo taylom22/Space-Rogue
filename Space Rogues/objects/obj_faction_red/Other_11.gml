@@ -6,5 +6,6 @@ if(HP>0){
 }
 
 if(HP <= 0){
+	create_debris(id, faction, 20, color);
 	instance_destroy();
 }

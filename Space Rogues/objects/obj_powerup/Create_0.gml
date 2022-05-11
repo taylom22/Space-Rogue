@@ -9,4 +9,4 @@ image_blend = c_lime;
 image_speed = 0;
 
 //test
-//image_index = powerups.star_bullets;
+//image_index = powerups.laser_bullets;

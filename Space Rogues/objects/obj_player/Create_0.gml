@@ -10,7 +10,7 @@ if(initialized = false){
 	global.playerDefaultHealth = 3;
 	
 	//Movement
-	global.maxSpeed = 15;
+	global.maxSpeed = 10;
 	
 	//Weapons
 	global.bulletDelayDefault = room_speed/5;
