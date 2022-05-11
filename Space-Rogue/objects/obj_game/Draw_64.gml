@@ -15,7 +15,7 @@ switch(room){
 	case rm_start:
 		draw_set_halign(fa_center);		
 		var c = c_yellow;
-		draw_text_transformed_color(room_width/2, 300, "SPACE ROGUES", 3, 3, 0, c,c,c,c, 1);
+		draw_text_transformed_color(room_width/2, 300, "SPACE ROGUE", 3, 3, 0, c,c,c,c, 1);
 		if(global.control_method == "asteroid"){ draw_text(room_width/2, 450, 
 @"Get the highest score you can!
 
