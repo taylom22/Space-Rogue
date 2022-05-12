@@ -12,4 +12,4 @@ dying = false;
 flashCounter = 60;
 
 //test
-image_index = powerups.invincible;
+//image_index = powerups.invincible;
