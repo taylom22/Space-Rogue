@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 3,
+  "collisionKind": 4,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -44,7 +44,7 @@
     "spriteId": {"name":"spr_enemy_brute_strip5","path":"sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 60.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

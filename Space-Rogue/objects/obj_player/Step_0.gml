@@ -8,3 +8,8 @@ if(global.collision = false){
 		global.collisionCounter = 0;
 	}
 }
+
+image_xscale = 1 + speed*.025;
+image_yscale = 1 - speed*.025;
+
+global.shieldTimer = alarm[1];

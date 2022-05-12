@@ -5,6 +5,8 @@ if(keyboard_check_released(vk_tab) || gamepad_button_check_released(0, gp_select
 		case "alternative":
 			global.control_method = "twinStick"; break;
 		case "twinStick":
+			global.control_method = "mouseKeyboard"; break;
+		case "mouseKeyboard":
 			global.control_method = "asteroid"; break;
 		default: 
 			global.control_method = "asteroid"; break;

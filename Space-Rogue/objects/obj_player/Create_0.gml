@@ -21,3 +21,6 @@ if(initialized = false){
 	guns = -1;
 	invincible = false;
 }
+
+image_xscale = 1;
+image_yscale = image_xscale;

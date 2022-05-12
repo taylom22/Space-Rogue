@@ -70,6 +70,31 @@ function player_movement(){
 				speed -= speed * .025;
 			}
 			break;
+			
+		case "mouseKeyboard":
+			
+			//Move
+			left = point_direction(x, y, x-5, y);
+			right = point_direction(x, y, x+5, y);
+			up = point_direction(x, y, x, y-5);
+			down = point_direction(x, y, x, y+5);
+			
+			if(keyboard_check(ord("A"))) motion_add(left, 0.5);
+			if(keyboard_check(ord("W"))) motion_add(up, 0.5);
+			if(keyboard_check(ord("S"))) motion_add(down, 0.5);
+			if(keyboard_check(ord("D"))) motion_add(right, 0.5);
+			
+			if(speed > global.maxSpeed) speed = global.maxSpeed;
+			if(keyboard_check(ord("S"))) speed -= speed * .025;
+			
+			//Aim
+			image_angle = point_direction(x, y, mouse_x, mouse_y);
+			
+			//brake
+			if(keyboard_check(vk_space)){
+				speed -= speed * .025;
+			}
+			break;
 	}	
 	//if outside room
 	move_wrap(true, true, sprite_width/2);

@@ -31,6 +31,14 @@ Right Stick: Aim
 LT: Stabilization Thrusters
 P|Start: Pause
 ");}
+
+if(global.control_method == "mouseKeyboard"){draw_text(vw/2, vh*.5, 
+@"Mouse and Keyboard Control Scheme
+WASD: Move
+Mouse: Aim
+Space: Stabilization Thrusters
+P: Pause
+");}
 		draw_text(vw/2, vh*.7, ">> PRESS ENTER TO START <<");
 		
 		draw_text(vw/2, vh*.8, "Press TAB/Share to change control scheme");
