@@ -9,7 +9,16 @@ with(other){
 switch(powerup_type){
 	case powerups.invincible: 
 		invincible = true;
-		alarm[1] = 20 * room_speed;
+		alarm[1] = global.defaultShieldTimer;
+		break;
+		
+	case powerups.healthpickup: 
+		health += 30;
+		break;
+	
+	case powerups.laser_bullets: 
+		guns = powerup_type;
+		alarm[0] = 5 * room_speed;
 		break;
 		
 	default: 

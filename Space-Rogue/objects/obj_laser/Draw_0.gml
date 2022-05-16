@@ -1,7 +1,7 @@
 var vw = camera_get_view_width(view_camera[0]);
 var vh = camera_get_view_height(view_camera[0]);
 var len = max(vw, vh);
-laser_width = 15;
+laser_width = 5;
 
 if(instance_exists(creator)){
 	_x = creator.x + lengthdir_x(16, direction);

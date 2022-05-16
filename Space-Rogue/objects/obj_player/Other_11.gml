@@ -6,7 +6,7 @@ if(global.collision = true){
 	audio_play_sound(snd_zap, 1, false);
 	create_debris(id, faction, 5, color);
 	
-	health -= 1;
+	health -= 10;
 
 	if(health <= 0){
 		lives -= 1;

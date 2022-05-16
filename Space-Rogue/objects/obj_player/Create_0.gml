@@ -20,6 +20,9 @@ if(initialized = false){
 	
 	guns = -1;
 	invincible = false;
+	
+	//Upgrades
+	global.defaultShieldTimer = 1000;
 }
 
 image_xscale = 1;

@@ -25,13 +25,8 @@ if paused == true
 	    draw_text_transformed_colour(vw / 2, vh / 2, "PAUSED", 2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 	    draw_set_halign(fa_left);
 		
-		draw_set_halign(fa_left);
-		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 40, "HEALTH: "+string(health));
-		draw_text(20, 60, "LIVES: "+string(lives));
-		draw_set_halign(fa_center);
-		draw_text(vw/2, 20, "Stardate: " + string(global.time_seconds));
-	    }
+		ui();
+		}
 }
 		
 

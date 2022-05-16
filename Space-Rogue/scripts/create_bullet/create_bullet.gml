@@ -6,7 +6,7 @@ function create_bullet(_dir, _speed, _faction, _creator, _gun){
 	var _xx = x + lengthdir_x(16, _dir);
 	var _yy = y + lengthdir_y(16, _dir);
 	
-	switch(_gun){
+	switch(_gun){	
 		case powerups.three_bullets:
 			var inst = instance_create_layer(_xx,_yy, "Instances", obj_bullet);
 			initialize_bullet(_dir, _speed, _faction, _creator, inst);

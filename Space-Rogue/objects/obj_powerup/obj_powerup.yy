@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_powerup_strip6",
-    "path": "sprites/spr_powerup_strip6/spr_powerup_strip6.yy",
+    "name": "spr_powerup_strip7",
+    "path": "sprites/spr_powerup_strip7/spr_powerup_strip7.yy",
   },
   "solid": false,
   "visible": true,

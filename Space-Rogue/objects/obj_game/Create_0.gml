@@ -1,6 +1,6 @@
 score = 0;
-lives = 3;
-health = 3;
+lives = 1;
+health = 100;
 
 global.control_method = "asteroid";
 show_debug_message("Control Method: "+global.control_method);
@@ -24,7 +24,8 @@ enum powerups {
 	four_bullets, 
 	star_bullets, 
 	laser_bullets, 
-	invincible
+	invincible, 
+	healthpickup
 }
 
 //Window Scaling

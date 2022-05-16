@@ -23,7 +23,7 @@ global.cameraHeight = global.resolution_h;
 view_wport[0] = global.resolution_w;
 view_hport[0] = global.resolution_h;
 window_set_size(global.resolution_w, global.resolution_h);
-surface_resize(application_surface, global.resolution_w, global.resolution_h);
+surface_resize(application_surface, max(1920, global.resolution_w), max(1080, global.resolution_h));
 display_set_gui_size(global.resolution_w, global.resolution_h);
 camera_set_view_size(view_camera[0], global.resolution_w, global.resolution_h);
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-time_seconds = 0;
+global.time_seconds = 0;
 spawn_off_camera(obj_asteroid,75);
 	
 spawn_off_camera(obj_raider,30);

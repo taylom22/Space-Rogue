@@ -3,7 +3,7 @@ event_inherited();
 
 HP = 5;
 pointValue = 30;
-defaultSpeed = 3;
+defaultSpeed = 1;
 bulletCounter = 0;
 bulletSpeed = 0;
 sightRange = 500;
@@ -14,3 +14,4 @@ fireSpeed = 30; //lower is faster
 
 speed = defaultSpeed;
 image_speed = 0;
+image_index = 4;
